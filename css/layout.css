@@ -24,4 +24,31 @@
 
 /* Posititoning Classes */
 
+.row {
+  display: inline-block;
+}
 
+ .col-8 {
+  width: 66%;
+  float: left;
+}
+
+.col-4 {
+  width: 33%;
+  float: right;
+}
+
+.deals {
+  display: inline-block;
+  column-count: 3;
+  clear: 3;
+  padding: 10px;
+}
+
+.last_row {
+  column-count: 3;
+}
+
+.sale {
+  width: 100%;
+}
