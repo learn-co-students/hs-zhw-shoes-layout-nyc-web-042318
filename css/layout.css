@@ -20,8 +20,44 @@
 
 .clear {
   clear: both;
+  padding-top: 20px;
 }
 
 /* Posititoning Classes */
 
+/*   LAYOUT   */
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.shoe-display{
+  padding-top: 30px;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+#follow-bg {
+  height: 100%
+}
+
+#details div {
+  padding-top:10px;
+  padding-left:10px;
+}
+
+.milk_text {
+  padding-top:20px;
+}
