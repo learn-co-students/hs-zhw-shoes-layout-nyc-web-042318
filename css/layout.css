@@ -24,4 +24,22 @@
 
 /* Posititoning Classes */
 
+.medium {
+  margin: 0% 2% 2% 0%;
+  width: 62%;
+  display: inline-block;
+  float: left;
+}
 
+.small {
+  width: 30%;
+  display: inline-block;
+  margin: 0% 2% 2% 0;
+  float: left;
+  position: relative;
+  font-size: 95.5%;
+}
+
+.large {
+  margin: 0% 0% 1% 0%;
+}
